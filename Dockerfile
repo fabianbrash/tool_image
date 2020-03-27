@@ -6,6 +6,8 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
     mysql-client \
+    iputils-ping \
+    dnsutils \
 && rm -rf /var/lib/apt/lists/*
 
 CMD ["bash"]
