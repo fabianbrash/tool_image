@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: tools
-    image: fabianbrash/tools:1.0
+    image: fabianbrash/tools:1.1
     imagePullPolicy: Always
     command: ["/bin/bash"]
     args: ["-c", "sleep 1000000"]
