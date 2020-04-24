@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y \
     dnsutils \
     siege \
     nfs-common \
+    vi \
+    debianutils \
 && rm -rf /var/lib/apt/lists/*
 
 CMD ["bash"]
