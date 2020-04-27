@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     nfs-common \
     vim \
     debianutils \
+    unzip \
 && rm -rf /var/lib/apt/lists/*
 
 CMD ["bash"]
